@@ -17,6 +17,7 @@ body {
   justify-items: center;
   align-content: start;
   overflow-x: hidden;
+  
 }
 
 :root {
@@ -35,7 +36,8 @@ header {
 main {
   width: var(--content);
   max-width: calc(100vw - (2 * var(--gutter)));
-  margin: 670px 0px 0px 0px;
+  margin: 670px 30px 0px 0px;
+  
 }
 
 
@@ -60,7 +62,8 @@ h1 {
   font-family: impact;
   font-size: calc(var(--font-size-fluid-3) * 2.5);
   line-height: 1;
-  color: rgb(43, 28, 248);    
+  color: rgb(9, 13, 201);
+  border:10cqi;    
 }
 
 .sr-only {
@@ -109,6 +112,7 @@ section {
     1fr;
   align-items: center;
   min-height: 100vh;
+  
 }
 
 p:first-line {
