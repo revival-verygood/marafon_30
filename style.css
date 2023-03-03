@@ -34,11 +34,15 @@ header {
 }
 
 main {
-  width: var(--content);
-  max-width: calc(100vw - (2 * var(--gutter)));
-  margin: 670px 30px 0px 0px;
+  margin: 650px 179px 20px 15px;
+  margin-left: 8%;
+  display: flex;
+  flex-wrap: wrap; 
+  margin-right: 0 auto;
   
 }
+
+
 
 
 footer {
@@ -47,6 +51,11 @@ footer {
   color: rgb(7, 100, 221);
   position: relative;
   text-align: center;
+  margin-left: 1%;
+  margin-left: 2%;
+  display: flex;
+  flex-wrap: wrap; 
+ 
   
 }
 
@@ -70,8 +79,8 @@ h1 {
 	position: absolute;
   width: 1px;
   height: 1px;
-  padding: 0;
-  margin: -1px;
+  padding: 30 30 30 30;
+  margin: 0 auto;
   overflow: hidden;
   clip: rect(0, 0, 0, 0);
   white-space: nowrap;
@@ -123,7 +132,7 @@ p:first-line {
 section p {
   z-index: 2;
   background: hsl(210 17% 98% / 0.65);
-  padding: 1rem;
+  padding: 15px;
   color: var(--text-1);
   backdrop-filter: blur(4px);
   font-size: 1rem;
